@@ -3,8 +3,7 @@
     justify-content: space-between;
     padding: 16px 0px;
     align-items: center;
-    height: 20px;
-    width: 20px;
+    
 }
 .todoitems-container{
     display: flex;
@@ -16,5 +15,8 @@
 }
 .todoitems-cross-icon{
     cursor: pointer;
-    padding-right: 25px;
+    padding-right: 10px;
+}
+.linethrough{
+    text-decoration:line-through solid #ADADAD 3px;
 }
